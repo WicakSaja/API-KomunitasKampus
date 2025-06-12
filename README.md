@@ -54,6 +54,24 @@ Dokumentasi ini menjelaskan endpoint REST API yang tersedia dalam aplikasi. Endp
 ---
 
 ## 🚀 How to Run
+---
+
+## 📦 Dependencies
+
+Berikut adalah library utama yang digunakan dalam proyek ini:
+
+| Package                | Deskripsi                                                                 |
+|------------------------|--------------------------------------------------------------------------|
+| `@prisma/client`       | Client auto-generated dari Prisma untuk mengakses database secara efisien |
+| `prisma`               | ORM (Object-Relational Mapping) untuk mengelola dan memigrasi database    |
+| `express`              | Framework minimalis untuk membangun REST API dengan cepat                 |
+| `bcrypt`               | Digunakan untuk mengenkripsi password sebelum disimpan ke database        |
+| `dotenv`               | Mengelola variabel lingkungan dari file `.env`                            |
+| `joi`                  | Library untuk validasi input data seperti form request body               |
+| `jsonwebtoken`         | Digunakan untuk membuat dan memverifikasi JSON Web Tokens (JWT)           |
+| `slugify`              | Mengubah string (seperti nama event) menjadi slug yang ramah URL         |
+| `swagger`              | Tools untuk mendeskripsikan dan membangun dokumentasi API                 |
+| `swagger-ui-express`   | Menyediakan tampilan antarmuka untuk dokumentasi Swagger di Express       |
 
 Ikuti langkah berikut untuk menjalankan project ini secara lokal:
 
