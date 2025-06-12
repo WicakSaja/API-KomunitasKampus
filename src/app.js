@@ -1,6 +1,7 @@
 import express from "express";
 import dotenv from 'dotenv';
 import authRoutes from './routes/authRoutes.js';
+import eventRoutes from './routes/eventRoutes.js';
 
 
 dotenv.config();
@@ -12,6 +13,7 @@ app.get('/', (req, res) => {
 app.use(express.json());
 
 app.use('/auth', authRoutes);
+app.use('/event', eventRoutes);
 
 
 export default app;
