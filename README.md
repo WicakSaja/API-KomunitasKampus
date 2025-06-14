@@ -81,6 +81,7 @@ Ikuti langkah berikut untuk menjalankan project ini secara lokal:
 
 ```bash
 npm install
+npx prisma generate
 npx prisma migrate dev
 npm run seed
 npm run start
